@@ -14,10 +14,11 @@ const nextConfig = {
   
   // Production optimizations
   experimental: {
+    optimizeCss: true,
     optimizePackageImports: ['@heroicons/react', 'framer-motion'],
   },
 
-  // Disable static exports
+  // Standalone output
   output: 'standalone',
 }
 

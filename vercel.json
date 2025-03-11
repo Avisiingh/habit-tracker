@@ -4,7 +4,7 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "regions": ["all"],
+  "regions": ["iad1"],
   "env": {
     "NEXTAUTH_URL": "PLACEHOLDER_URL",
     "NEXTAUTH_SECRET": "PLACEHOLDER_SECRET",
