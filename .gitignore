@@ -31,4 +31,15 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts 
+next-env.d.ts
+
+# Large binary files
+*.node
+*.dll
+/prisma/libquery-engine*
+/prisma/query_engine*
+/prisma/schema-engine*
+
+# Database files
+*.db
+*.db-journal 
