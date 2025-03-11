@@ -23,10 +23,15 @@ const handler = NextAuth({
       }
       return session
     },
+    async redirect({ url, baseUrl }) {
+      return url.startsWith(baseUrl) ? url : baseUrl
+    }
   },
   pages: {
     signIn: '/login',
+    error: '/login',
   },
+  debug: process.env.NODE_ENV === 'development',
 })
 
 export { handler as GET, handler as POST } 
