@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["all"],
+  "env": {
+    "NEXTAUTH_URL": "PLACEHOLDER_URL",
+    "NEXTAUTH_SECRET": "PLACEHOLDER_SECRET",
+    "DATABASE_URL": "PLACEHOLDER_DB_URL"
+  }
+} 
